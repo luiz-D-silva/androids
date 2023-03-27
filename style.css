@@ -30,6 +30,7 @@
 body {
     background-color: #8ee38677;
     font-family:var(--font-padrao);
+    min-height: 300px;
 }
 main {
     background-color: #8ee38677;
@@ -191,12 +192,9 @@ footer {
     background-color: #8ee38677;
 }
 footer > p {
-    background-color: var(--cor1);
-    color:var(--cor4);
-    padding: 10px;
+    padding: 5px;
     text-align: center;
-    border-radius: 10px;
-    margin: 0px 100px 0px 100px;
+    margin: auto;
 }
 
 footer a {
